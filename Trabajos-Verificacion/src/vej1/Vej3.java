@@ -16,20 +16,20 @@ import static vej1.Vej1.x;
 public class Vej3 {
 
     static int x;
-    
-    public static int raiz(int x){
-        int y=(int) sqrt(x);
+
+    public static int raiz(int x) {
+        int y = (int) sqrt(x);
         return y;
     }
-    
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        do{
+        do {
             System.out.print("Ingrese un valor entero para X: ");
             x = scan.nextInt();
-        }while(x<0);
-        System.out.println("El valor de X es: "+x+" y el de Y es: "+raiz(x));
-        
+        } while (x < 0);
+        System.out.println("El valor de X es: " + x + " y el de Y es: " + raiz(x));
+
     }
-    
+
 }

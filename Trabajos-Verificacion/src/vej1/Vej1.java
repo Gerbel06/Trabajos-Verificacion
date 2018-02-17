@@ -10,18 +10,18 @@ import java.util.Scanner;
 public class Vej1 {
 
     static int x;
-    
-    public static int copia(int x){
-        int y=x;
+
+    public static int copia(int x) {
+        int y = x;
         return y;
     }
-    
+
     public static void main(String[] args) {
-        Scanner scan=new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.print("Ingrese un valor entero: ");
-        x=scan.nextInt();
-        System.out.println("X es: "+x+" Y es: "+copia(x));
-        
+        x = scan.nextInt();
+        System.out.println("X es: " + x + " Y es: " + copia(x));
+
     }
-    
+
 }

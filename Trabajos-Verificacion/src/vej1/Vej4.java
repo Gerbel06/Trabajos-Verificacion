@@ -14,27 +14,28 @@ import static vej1.Vej3.x;
  */
 public class Vej4 {
 
-    static int x,y;
-    
-    public static int prod(int x, int y){
-        int z=x*y;
-        
+    static int x, y;
+
+    public static int prod(int x, int y) {
+        int z = x * y;
+
         return z;
     }
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        do{
+        do {
             System.out.print("Ingrese un valor entero para X: ");
             x = scan.nextInt();
-        }while(x<0);
-        
-        do{
+        } while (x < 0);
+
+        do {
             System.out.print("Ingrese un valor entero para Y: ");
             y = scan.nextInt();
-        }while(y<0);
-        
-        System.out.println("EL producto es: "+prod(x,y));
-        
+        } while (y < 0);
+
+        System.out.println("EL producto es: " + prod(x, y));
+
     }
-    
+
 }
